@@ -11,8 +11,7 @@ function App() {
     ciudad:'',
     pais:'',
   });
-
-
+  
   const {ciudad,pais} = busqueda;
 
   const [consultar,setConsultar] = useState(false);
